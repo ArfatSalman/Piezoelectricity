@@ -1,0 +1,90 @@
+.heads {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 16pt;
+    left: -90px;
+    padding: 0 55px 30px 17px;
+    position: relative;
+    text-align: right;
+    top: 28px;
+    width: 28px;
+}
+.heads:nth-child(1) {
+    text-indent: 30px;
+}
+.heads:nth-child(2) {
+    text-indent: 30px;
+}
+.heads:nth-child(3) {
+    margin-top: -3px;
+    text-indent: 15px;
+}
+:-moz-placeholder {
+    font-style: italic;
+	color: #BFB9B9;
+}
+.heads:nth-child(4) {
+    margin-top: -5px;
+}
+#pigi {
+    margin: -5px -9px;
+    width: 614px;
+}
+.commentForm {
+    border: 0 solid red;
+    height: 324px;
+    margin-left: 60px;
+    padding: 10px 0 70px 6px;
+    position: relative;
+    width: 600px;
+}
+.commentForm input[type="text"], .commentForm textarea {
+    background-repeat: no-repeat;
+    border-width: 0;
+    font-family: Arial,Sans-Serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 32px;
+    position: absolute;
+    text-indent: 5px;
+    width: 463px;
+}
+.nameField {
+    background-image: url("../images/core/input-bk.jpg");
+    height: 38px;
+    top: 30px;
+    width: 0;
+}
+.emailField {
+    background-image: url("../images/core/input-bk.jpg");
+    height: 38px;
+    top: 80px;
+}
+.websiteField {
+    background-image: url("../images/core/input-bk.jpg");
+    height: 38px;
+    top: 130px;
+}
+.commentField {
+    background-image: url("../images/core/textarea-bk.jpg");
+    height: 134px;
+    top: 180px;
+}
+.sendButton {
+    -moz-transition-duration: 1s;
+    -moz-transition-property: background, box-shadow;
+    -moz-transition-timing-function: ease-in-out;
+    background-color: #EEEEEE;
+    border: 0 solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16pt;
+    height: 30px;
+    left: 34px;
+    position: absolute;
+    top: 320px;
+    width: 100px;
+}
+.sendButton:hover {
+    background: none repeat scroll 0 0 red;
+    box-shadow: 1px 5px 12px 2px aqua;
+}

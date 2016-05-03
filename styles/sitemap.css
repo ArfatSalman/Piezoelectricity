@@ -1,0 +1,27 @@
+.sitemap a {
+    -moz-transition: all 0.5s ease 0s;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+}
+.sitemap a:hover {
+    background: none repeat scroll 0 0 #FF9999;
+}
+.titles {
+    background: -moz-linear-gradient(center top , #6DB3F2 0%, #54A3EE 50%, #3690F0 51%, #1E69DE 100%) repeat scroll 0 0 transparent;
+    font-family: trebuchet MS;
+    font-size: 18pt;
+    font-weight: normal;
+    padding: 5px;
+	color: white;
+}
+.titles + ul {
+    list-style: disc outside none;
+    margin: 0 15px;
+}
+li ul {
+    list-style: circle outside none;
+    padding: 5px 40px;
+}

@@ -1,0 +1,9 @@
+.facts li {
+    list-style: upper-roman;
+    margin: 0px 35px;
+    -moz-transition: 0.5s;
+    padding: 2px;
+}
+.facts li:hover {
+    background: hsl(206, 77%, 90%);
+}

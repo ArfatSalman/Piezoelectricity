@@ -1,0 +1,64 @@
+.accordion h2 + div {
+    -moz-transition: height 0.3s ease-in 0s;
+    height: 0;
+    overflow: hidden;
+}
+.accordion *:target h2 + div {
+    height: 350px;
+}
+#first h2 {
+    -moz-transition: all 0.5s ease 0s;
+    background: none repeat scroll 0 0 #FF0000;
+    padding: 10px;
+    text-shadow: 1px 2px black;
+}
+#first h2:hover {
+    background: none repeat scroll 0 0 #FF6566;
+}
+#two h2 {
+    -moz-transition: all 0.5s ease 0s;
+    background: none repeat scroll 0 0 #F3A229;
+    padding: 10px;
+    text-shadow: 1px 2px black;
+}
+#two h2:hover {
+    background: none repeat scroll 0 0 #F8CC8A;
+}
+#three h2 {
+    -moz-transition: all 0.5s ease 0s;
+    background: none repeat scroll 0 0 #C5BB8A;
+    padding: 10px;
+    text-shadow: 1px 2px black;
+}
+#three h2:hover {
+    background: none repeat scroll 0 0 #E7E3CF;
+}
+#four h2 {
+    -moz-transition: all 0.5s ease 0s;
+    background: none repeat scroll 0 0 #ABCB42;
+    padding: 10px;
+    text-shadow: 1px 2px black;
+}
+#four h2:hover {
+    background: none repeat scroll 0 0 #CFE192;
+}
+.section a {
+    color: white;
+    font-size: 25pt;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.section dl a {
+    color: blue;
+    font-size: 13pt;
+}
+.section dl a:hover {
+    text-decoration: underline;
+}
+.section ul a {
+    color: blue;
+    font-size: 13pt;
+}
+.section ul {
+    list-style: inside;
+}

@@ -1,0 +1,185 @@
+#page-wrap {
+    background: -moz-linear-gradient(center top , #B3DCED 0%, #29B8E5 50%, #BCE0EE 100%) repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    height: 640px;
+    margin: -30px auto;
+    width: 1000px;
+}
+#galle {
+    -moz-transition: all 1s ease 0s;
+    background: -moz-radial-gradient(center top , #B7DEED 0%, #71CEEF 50%, #21B4E2 51%, #B7DEED 100%) repeat scroll 0 0 transparent;
+    border-radius: 50px 50px 50px 50px;
+    display: block;
+    font-family: trebuchet MS;
+    font-size: 46px;
+    letter-spacing: 5px;
+    padding: 20px;
+    text-align: center;
+}
+#galle-child {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+    font-family: Lucida Grande;
+}
+.b_gallery {
+    padding: 10px 0 0 4px;
+}
+.b_gallery li {
+    border: 3px solid #CCCCCC;
+    display: inline-block;
+    float: left;
+    list-style: none outside none;
+    margin: 0 10px 10px 0;
+}
+.b_gallery li a, ul.b_gallery li img {
+    display: block;
+}
+.b_gallery li:hover {
+    -moz-transform: rotate(10deg);
+    border-color: #1E528C;
+    box-shadow: 0 0 15px 3px white;
+}
+.overlay_container {
+    counter-reset: b_gallery;
+}
+.overlay_container > li {
+    counter-increment: b_gallery;
+}
+.overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 999;
+}
+#helper {
+    display: none;
+}
+body:hover #helper {
+    display: none;
+}
+#helper {
+    color: #606061;
+    display: block;
+    left: 50%;
+    margin: 0 0 0 -200px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    z-index: 1000;
+}
+.overlay a, .overlay > a + p:after {
+    opacity: 0;
+}
+.overlay:hover a, .overlay a:active, .overlay:hover > a + p:after {
+    opacity: 1;
+}
+.overlay > a {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.overlay > a + p:after {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    content: "" " " attr(title);
+    display: block;
+    font-family: Verdana;
+    font-size: 20px;
+    left: 50%;
+    margin: -10px 0 0 -505px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 93%;
+    width: 985px;
+}
+.overlay > p a, .overlay > p a[rel="next"] {
+    -moz-transition: -moz-box-shadow 0.2s ease 0s;
+    background: none repeat scroll 0 0 rgba(96, 96, 97, 0.5);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 20px;
+    position: absolute;
+    right: 10%;
+    text-decoration: none;
+    text-shadow: 2px 2px #000000;
+    top: 50%;
+}
+.overlay > p a[rel="prev"] {
+    left: 10%;
+    right: inherit;
+}
+.overlay > p a:hover, .overlay > p a:focus {
+    background: none repeat scroll 0 0 rgba(96, 96, 97, 0.8);
+    box-shadow: 2px 2px 10px #FFFFFF;
+}
+.overlay:target {
+    display: table;
+    visibility: visible;
+}
+.overlay:target > a {
+    background: url("../images/gallery/piezowave.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img2.overlay:target > a {
+    background: url("../images/gallery/roads.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img3.overlay:target > a {
+    background: url("../images/gallery/shoe.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img4.overlay:target > a {
+    background: url("../images/gallery/dance.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img5.overlay:target > a {
+    background: url("../images/gallery/fut1.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img6.overlay:target > a {
+    background: url("../images/gallery/fut2.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img7.overlay:target > a {
+    background: url("../images/gallery/fut3.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img8.overlay:target > a {
+    background: url("../images/gallery/fut4.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img9.overlay:target > a {
+    background: url("../images/gallery/fut5.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img10.overlay:target > a {
+    background: url("../images/gallery/fut6.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img11.overlay:target > a {
+    background: url("../images/gallery/fut7.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img12.overlay:target > a {
+    background: url("../images/gallery/fut8.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img13.overlay:target > a {
+    background: url("../images/gallery/fut9.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img14.overlay:target > a {
+    background: url("../images/gallery/fut10.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img15.overlay:target > a {
+    background: url("../images/gallery/fut11.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img16.overlay:target > a {
+    background: url("../images/gallery/fut12.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img17.overlay:target > a {
+    background: url("../images/gallery/fut13.jpg") no-repeat scroll 50% 50% transparent;
+}
+#b_gallery_img18.overlay:target > a {
+    background: url("../images/gallery/fut14.jpg") no-repeat scroll 50% 50% transparent;
+}
